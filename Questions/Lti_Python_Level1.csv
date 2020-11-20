@@ -1,0 +1,15 @@
+Q_No,Question,O1,O2,O3,O4,Answer
+1,Which of the following is invalid?,_a=1,__a=1,__str__=1,None,O4
+2,Which of the following is an invalid variable?,my_string_1,1st_string,foo,_,O2
+3,Which of these in not a core data type?,Lists,Tuples,Dictionaries,Class,O4
+4,"What will be the output of the following Python code?
+str=""hello""
+str[:2]",he,lo,olleh,hello,O1
+5,"What data type is the object below?
+L = [1, 23, 'hello', 1]",List,Dictionary,Array,Tuple,O1
+6,In order to store values in terms of key and value we use what core data type?,List,Tuple,Class,Dictionary,O4
+7,Which is the correct operator for power(x raised to y)?,^,**,^^,None,O2
+8,"What is the answer to this expression, 22 % 3 is?",7,1,0,5,O2
+9,"Evaluate the expression given below if A = 16 and B = 15.
+A % B // A",0,0,1,1,O1
+10, What will be the output of the following Python statement?,a,bc,bca,abc,O4
