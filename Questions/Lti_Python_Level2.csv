@@ -1,0 +1,42 @@
+Q_No,Question,O1,O2,O3,O4,Answer
+1,"What error occurs when you execute the following Python code snippet?
+apple = mango",SyntaxError,NameError,ValueError,TypeError,O2
+2," What will be the output of the following Python code snippet?
+def example(a):
+    a = a + '2'
+     a = a*2
+    return a
+>>>example(""hello"")",indentation error,cannot perform mathematical operations on strings,hello2,hello2hello2,O1
+3,"What will be the output of the following Python code?
+i = 1
+while True:
+    if i%2 == 0:
+        break
+    print(i)
+    i += 2",1,1 2,1 2 3 4 5 6 ….,1 3 5 7 9 11 …,O4
+4,"What will be the output of the following Python code?
+i = 0
+while i < 3:
+    print(i)
+    i += 1
+else:
+    print(0)",0 1 2 3 0,0 1 2 0,0 1 2,error,O2
+5,"What will be the output of the following Python code?
+x = ""abcdef""
+while y in x:
+    print(i, end="" "")",a b c d e f,abcdef,y y y y y ….,error,O4
+6,"What will be the output of the following Python code?
+x = 'abcd'
+for i in range(len(x)):
+    print(i)",a b c d,0 1 2 3,error,1 2 3 4,O2
+7,"What will be the output of the following Python code snippet?
+print([i.lower() for i in ""HELLO""])","[‘h’, ‘e’, ‘l’, ‘l’, ‘o’]","‘hello’
+","[‘hello’]
+",hello,O1
+8,"What type of data is: a=[(1,1),(2,4),(3,9)]?",array of tuples,list of tuples,tuples of list,invalid,O2
+9,Which of these about a frozenset is not true?,Mutable data type,Allows duplicate values,Data type with unordered values,Immutable data type,O1
+10,"What will be the output of the following Python code?
+x = ""abcdef""
+y = ""a""
+while y in x:
+    print('y', end = "" "")",no output,y y y y y …,a a a a a …,abcdef,O2
