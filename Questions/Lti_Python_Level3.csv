@@ -1,0 +1,36 @@
+Q_No,Question,O1,O2,O3,O4,Answer
+1,"What will be the output of the following Python code?
+string = ""my name is x""
+for i in ' '.join(string.split()):
+    print (i, end="", "")","my, name, is, x,",error,"m, y, , n, a, m, e, , i, s, , x",my name is x,O1
+2," What will be the output of the following Python code snippet?
+print(""ab\tcd\tef"".expandtabs())",ab??cd??ef,ab?cd?ef,abcdef,ab\tcd\tef,O1
+3,"What will be the output of the following Python code?
+print(""Hello {} and {}"".format('foo', 'bin'))",error,Hello and,Hello {} and {},Hello foo and bin,O4
+4,"What will be the output of the following Python code?
+[j for i in range(2,8) for j in range(i*2, 50, i)]",A list of prime numbers up to 50," A list of numbers divisible by 2, up to 50","A list of non prime numbers, up to 50",error,O3
+5,"What will be the output of the following Python code?
+hex(15)",f,0xf,0xF,0Xf,O2
+6,Which of the following functions does not throw an error?,ord(),"ord("""")",ord(''),all of the above,O3
+7,"What will be the output of the following Python code snippet?
+def change(one, *two):
+   print(type(two))
+change(1,2,3,4)",Interger,Tuple,Dictionary,An exception is thrown,O2
+8,"Is the following Python code valid?
+try:
+    # Do something
+except:
+    # Do something
+finally:
+    # Do something","no, there is no such thing as finally","no, finally cannot be used with except","no, finally must come before except",yes,O2
+9," Compare the following two Python codes shown below and state the output if the input entered in each case is -6?
+CODE 1
+import math
+num=int(input(""Enter a number of whose factorial you want to find""))
+print(math.factorial(num))
+ 
+CODE 2
+num=int(input(""Enter a number of whose factorial you want to find""))
+print(math.factorial(num))","ValueError, NameError","AttributeError, ValueError","NameError, TypeError","TypeError, ValueError",O1
+10,"What will be the output of the following Python code?
+print('ab'.zfill(5))",000ab,ab000,00ab0,0ab00,O1
