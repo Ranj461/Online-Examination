@@ -1,0 +1,14 @@
+Q_No,Question,O1,O2,O3,O4,Answer
+,,,,,,
+1,"The following SQL is which type of join: SELECT CUSTOMER_T. CUSTOMER_ID, ORDER_T. CUSTOMER_ID, NAME, ORDER_ID FROM CUSTOMER_T,ORDER_T?",Equi-join,Natural join,Outer join,Cartesian join,O4
+2,Which is not a type of join in T-SQL?,Equi-join,Natural join,Outer join,Cartesian join,O2
+3,What is a view?,A view is a special stored procedure executed when certain event occurs,A view is a virtual table which results of executing a pre-compiled query,A view is a database diagram,None of the Mentioned,O2
+4,SQL Server has mainly how many types of views?,ONE,TWO,THREE,FOUR,O2
+5,"SQL applies predicates in the _______ clause after groups have been formed, so aggregate functions may be used.",Group by,With,Where,HAVING,O2
+6,"A Boolean data type that can take values true, false, and ____________",1,0,NULL,Unknown,O4
+7,The ________ keyword is used to access attributes of preceding tables or subqueries in the from clause.,In,Lateral,With,Having,O2
+8,___________ convert object properties into CSV objects.,ConvertFrom-CSV,Convert-CSV,ConvertFromCSV,All of the mentioned,O1
+9, ___________ is stored only in the Master database.,Database-scoped Dynamic Management View,Complex View,Catalog View,None of the mentioned,O4
+10,You can delete a view with ___________ command.,DROP VIEW, DELETE VIEW, REMOVE VIEW,TRUNCATE VIEW,O1
+11,__________ takes no parameters and returns all kinds of interesting information.,sp_monitor,sp_on,sp_status,none of the mentioned,O1
+12,Which of the following is not a ranking function?,RANK,NTILE,ROW_NUMBER,All of the mentioned,O4

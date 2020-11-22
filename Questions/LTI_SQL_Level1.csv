@@ -1,0 +1,14 @@
+Q_No,Question,O1,O2,O3,O4,Answer
+,,,,,,
+1,Which SQL statement is used to extract data from a database?,GET,SELECT,EXTRACT,OPEN,O2
+2, Which SQL function is used to count the number of rows in a SQL query?,COUNT(),NUMBER(),SUM(),COUNT(*),O4
+3,Which SQL keyword is used to retrieve a maximum value?,MOST,TOP,MAX,UPPER,O3
+4,Which of the following SQL clauses is used to DELETE tuples from a database table?,DELETE ,REMOVE,TOP,UPPER,O1
+5,___________removes all rows from a table without logging the individual row deletions.,DELETE ,REMOVE,TOP,TRUNCATE,O4
+6,Which of the following is not a DDL command?,UPDATE ,TRUNCATE,ALTER,None of the above,O1
+7,Which of the following are TCL commands?,UPDATE and TRUNCATE,SELECT and INSERT,GRANT and REVOKE,ROLLBACK and SAVEPOINT,O4
+8,________________ is not a category of SQL command.,TCL,SCL,DDL,DCL,O2
+9,What is the purpose of the SQL AS clause?,The AS SQL clause is used to change the name of a column in the result set or to assign a name to a derived column,The AS clause is used with the JOIN clause only,The AS clause defines a search condition,All of the mentioned,O1
+10,Which of the following statement is true?,DELETE does not free the space containing the table and TRUNCATE free the space containing the table,Both DELETE and TRUNCATE free the space containing the table,Both DELETE and TRUNCATE does not free the space containing the table,DELETE free the space containing the table and TRUNCATE does not free the space containing the table,O1
+11,Which SQL keyword is used to sort the result-set?,ORDER BY,SORT,ORDER,GROUP BY,O1
+12,The UPDATE SQL clause can _____________, update only one row at a time,update more than one row at a time,delete more than one row at a time,None of the above,O2

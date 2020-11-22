@@ -1,0 +1,14 @@
+Q_No,Question,O1,O2,O3,O4,Answer
+,,,,,,
+1,"With SQL, how can you return the number of not null records in the “Persons” table?",SELECT COUNT() FROM Persons,SELECT COLUMNS() FROM Persons,SELECT COLUMNS(*) FROM Persons,SELECT COUNT(*) FROM Persons,O1
+2,The UNION SQL clause can be used with _____________,SELECT clause only,DELETE and UPDATE clauses, UPDATE clause only,All of the mentioned,O1
+3,Which SQL statement is used to return only different values?,SELECT DIFFERENT,SELECT UNIQUE,SELECT DISTINCT,SELECT ALL,O3
+4, How can you change “Hansen” into “Nilsen” in the “LastName” column in the Persons table?,UPDATE Persons SET LastName=’Hansen’ INTO LastName=’Nilsen’,MODIFY Persons SET LastName=’Nilsen’ WHERE LastName=’Hansen’,MODIFY Persons SET LastName=’Hansen’ INTO LastName=’Nilsen’,UPDATE Persons SET LastName=’Nilsen’ WHERE LastName=’Hansen’,O4
+5,Which of the following command makes the updates performed by the transaction permanent in the database?,ROLLBACK,COMMIT,SAVE,DELETE,O2
+6, SQL query to find all the cities whose humidity is 95.,SELECT city WHERE humidity = 95,SELECT city FROM weather WHERE humidity = 95,SELECT humidity = 89 FROM weather,None of the above,O2
+7,What is the meaning of LIKE ‘%0%0%’?,Feature begins with two 0’s,Feature ends with two 0’s,Feature has more than two 0’s,"Feature has two 0’s in it, at any position",O4
+8, The command used to remove rows from a table ‘CUSTOMER’ is __________________,DROP,DELETE,UPDATE,REMOVE,O2
+9,What type of join is needed when you wish to include rows that do not have matching values?,Equi-join,Natural join,Outer join,All of the Mentioned,O3
+10,Which of the following is one of the basic approaches for joining tables?,Subqueries,Union Join,Natural Join,All of the Mentioned,O4
+11,How many tables may be included with a join?,ONE,TWO,THREE,All of the Mentioned,O4
+12,Aggregate functions are functions that take a ___________ as input and return a single value.,Collection of values, Single value,Double value,All of the mentioned,O1
