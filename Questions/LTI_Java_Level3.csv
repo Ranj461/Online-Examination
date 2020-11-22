@@ -1,0 +1,16 @@
+Q_No,Question,O1,O2,O3,O4,Answer
+1,"In Iterator, hasMoreElements() method of Enumeration has been changed to:",hasNextElement(),isNext(),hasNext(),name remains same,O3
+2,TreeSet internally uses that one to store elements?,HashMap,LinkedHashMap,TreeMap,None of the Above,O3
+3,An attempt to add the null key to a TreeSet will result in:,Will Compile ,Compile time Exception,Error,Runtime - NullPointerException,O4
+4,Inner classes are,anonymous classes,nested classes,subclasses,derived classes,O2
+5,"For the execution of DELETE SQL query in JDBC, …………. method must be used.",executeQuery(),executeDeleteQuery(),executeUpdate(),executeDelete(),O3
+6,In order to run JSP _______ is required,Mail Server,Applet viewer,Java Web Server,Database Connection,O3
+7,"System.in.read() is being used, the program must specify the ……………… clause.",throws.java.out.IOException,throws.java.in.IOException,throws.java.io.IOException,throws.java.io.InException,O3
+8,"What is the error in the following code?
+class Test
+{
+abstract void display( );
+
+}",No error,Method display( ) should be declared as static,Test class should be declared as abstract,Test class should be declared as public,O3
+9,The concept of multiple inheritances is implemented in Java by,extending two or more classes,extending one class and implementing one or more interfaces,implementing two or more interfaces,both B and C,O4
+10,"If a variable is declared final, it must include …………………. value.",integer,no,initial,float,O3
