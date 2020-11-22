@@ -1,9 +1,9 @@
 Q_No,Question,O1,O2,O3,O4,Answer
-1,Which of the following is not a Java features?,Dynamic,Architecture Neutral,Use of Pointers,Object Oriented,O3
+1,Which of the following is not a Java feature?,Dynamic,Architecture Neutral,Use of Pointers,Object Oriented,O3
 2,_____ is used to find and fix bugs in the Java programs.,JVM,JRE,JDK,JDB,O4
 3,Which of the following is a valid declaration of a char?,char ch = '\utea';,char ca = 'tea';,char cr = \u0223;,char cc = '\itea';,O1
 4,What is the return type of the hashCode() method in the Object class?,Object,Int,Long,Void,O2
-5, What does the expression float a = 35 / 0 return?,0,Not a number,Infinity,Runtime Exception,O3
+5,What does the expression float a = 35 / 0 return?,0,Not a number,Infinity,Runtime Exception,O3
 6,Which package contains the Random class?,java.util.package,java.lang package,java.awt package,java.io package,O4
 7,An interface with no fields or methods is known as a ______.,Runnable Interface,Marker Interface,Abstract Interface,CharSequence Interface,O2
 8,"In which memory a String is stored, when we create a string using new operator?",Stack,String Memory,Heap Memory,Random storage Space,O3
