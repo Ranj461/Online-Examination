@@ -1,0 +1,14 @@
+Q_No,Question ,O1,O2,O3,O4,Answer
+1,What is the initial quantity of the ArrayList list?,5,10,0,100,O2
+2,Which of the following is a mutable class in java?,java.lang.String,java.lang.Byte,java.lang.Short,java.lang.StringBuilder,O4
+3,"What will be the output of following Code:- abstract class MyFirstClass {     abstract num (int a, int b) {  }  }",No Error,Method is not defined properly,Constructor is not defined properly,Extra parentheses,O2
+4,What is meant by the classes and objects that dependents on each other?,Tight Coupling,Cohension,Loose Coupling,None of the above,O1
+5,"int values[ ] = {1,2,3,4,5,6,7,8,9,10};  
+for(int i=0;i< Y; ++i)  
+System.out.println(values[i]); Find the value of value[i]?",10,11,15,None of the above,O4
+6,How many threads can be executed at a time ?,Only one thread,Multiple Thread,Only main method thread,Two Threads,O2
+7,Which of the following modifiers can be used for a variable so that it can be accessed by any thread or a part of a program?,global,transient,volatile,default,O3
+8,What is the default encoding for an OutputStreamWriter?,UTF_8,Default encoding of the host platform,UTF-12,None of the above,O2
+9,The class at the top of exception class hierarchy is,ArithmeticException,Throwable,Object,Exception,O2
+10,Which of the following are not Java keywords ?,Double,switch,then,instanceof,O3
+
