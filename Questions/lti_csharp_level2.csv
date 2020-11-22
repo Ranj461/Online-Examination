@@ -1,0 +1,41 @@
+﻿Q_No,Question,O1,O2,O3,O4,Answer
+1,"What will be the output of the following C# code?
+
+static void Main(string[] args)
+{
+    int x = 1;
+    float y = 2. 4f;
+    short z = 1;
+    Console. WriteLine((float) x + y * z - (x + = (short) y) );
+    Console. ReadLine();
+}",0.4000004,0.4000023,0.0400021,0.4000001,O4
+2,"A float occupies 4 bytes. If the hexadecimal equivalent of these 4 bytes are A, B, C and D, then when this float is stored in memory in which of the following order do these bytes gets stored?",ABCD,DCBA,0*ABCD,Depends on big endian or little endian architecture,O4
+3,The Default value of Boolean Data Type is?,0,TRUE,FALSE,1,O3
+4,"What will be the output of the following C# code?
+
+ public static void Main(string[] args)
+ {
+     double ZERO = 0;
+     Console.WriteLine(""RESULT OF DIVISION BY ZERO IS :{0}"",  (0 / ZERO));
+     Console.ReadLine();
+ }",1,exception argument is thrown,NaN,0,O3
+5,What is the Size of ‘Char’ datatype?,8 bit,12 bit,16 bit,20 bit,O3
+6,"What will be the output of the following C# code?
+
+ static void Main(string[] args)
+ {
+     char c = 'g';
+     string s = c.ToString();
+     string s1 = ""I am a human being"" + c;
+     Console.WriteLine(s1);
+     Console.ReadLine();
+ }",I am a human bein c,I am a human being,I am a human being c,I am a human bein,O2
+7,Which is the String method used to compare two strings with each other?,Compare To(),Compare(),Copy(),ConCat(),O2
+8,"What will be the output of the following C# code?
+
+   string s1 = "" I AM BEST "";
+   string s2;
+   s2 = s1.substring (5, 4);
+   Console.WriteLine (s2);",AM BEST,I AM BES,BEST,I AM  ,O3
+9,Correct statement about strings are?,a string is created on the stack,a string is primitive in nature,a string created on heap,created of string on a stack or on a heap depends on the length of the string,O3
+10,Why strings are of reference type in C#.NET?,To create string on stack,To reduce the size of string,To overcome problem of stackoverflow,None of the mentioned,O2
