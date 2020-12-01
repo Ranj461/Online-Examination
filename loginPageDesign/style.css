@@ -11,26 +11,27 @@ body{
 }
 img{
     float: right;
-    margin-top: 15%;
+    position: relative;
     margin-right: 1%;
     width: 400px;
+    bottom: -35vh;
 
 }
 .banner{
     margin-top: 5%;
     float: right;
     text-align: center;
-    margin-right: -130px;
+    margin-right:  -25vh;
 }
 .b1{
     color: white;
-    font-size: 70px;
+    font-size: 4.5vw;
     font-weight: bold; 
 
 }
 .b2{
 
-    font-size: 30px;
+    font-size: 2vw;
     font-weight: bold;
     margin-top: -30px;
     color: white;
@@ -49,7 +50,7 @@ img{
     border-radius: 30px;
 }
 .innerlogin p{
-    margin-top: 50px;
+    margin-top: 30px;
     font-size: 40px;
     font-weight: 500;
 }
@@ -73,4 +74,21 @@ form label{
 .but:hover{
     background-color: black;
     color: white;
+}
+
+@media (max-width: 1000px) {
+.banner{
+    margin-top: 5%;
+    float: right;
+    text-align: center;
+    margin-right:  -45vh;
+   
+}
+.login{
+    width: 35%;
+    height: 90%;
+}
+.b2{
+    margin-top: -20px;
+}
 }
